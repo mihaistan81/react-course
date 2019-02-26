@@ -5,7 +5,7 @@ const person = (props) => {
     <p onClick={props.click}>I am {props.name} and I am {props.age} years old!
       {props.children}
     </p>
-  )
-}
+  );
+};
 
 export default person;

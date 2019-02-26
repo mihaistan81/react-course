@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import Person from './Person/Person'
+import Person from './Person/Person';
 
 const AppWithHook = props => {
 
@@ -27,7 +27,7 @@ const AppWithHook = props => {
       ],
       otherProp: personState.otherProp
     });
-  }
+  };
 
   return (
     <div className="App">
@@ -49,26 +49,5 @@ const AppWithHook = props => {
     </div>
   );
 };
-
-
-// state = {
-//   persons: [
-//     { name: 'Max', age: 28},
-//     { name: 'Alina', age: 29},
-//     { name: 'Stephanie', age: 27}
-//   ],
-//   otherProp: "Some other Property"
-// }
-//
-// switchNameHandler = () => {
-//   console.log('Was clicked');
-//   this.setState({
-//     persons: [
-//       { name: 'Maximilian', age: 28},
-//       { name: 'Alina', age: 29},
-//       { name: 'Stephanie', age: 30}
-//     ]
-//   });
-// }
 
 export default AppWithHook;
