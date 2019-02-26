@@ -16,6 +16,7 @@ const AppWithHook = props => {
   const [otherState, setOtherState] = useState('some other state');
 
   console.log(personState, otherState);
+  ## Comment
 
   const switchNameHandler = () => {
     console.log('Was clicked');
