@@ -1,41 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import Person from './Person/Person';
-import UserInput from './User/UserInput';
-import UserOutput from './User/UserOutput';
+import Person from './Person/Person'
 
 class App extends Component {
 
-  /** MODULE 3 - START ASSIGNMENT 1  */
-  // state = {
-  //   usernames: [
-  //     {user: 'Andrei'},
-  //     {user: 'Mihai'}
-  //   ]
-  // };
-
-  // usernameChangeHandler = (event) => {
-  //     this.setState({
-  //       usernames: [
-  //         {user: event.target.value},
-  //         {user: 'Mihai 1'}
-  //       ]
-  //     });
-  // };
-
-  // render() {
-  //     return (
-  //       <div className="App">
-
-  //           <UserInput change={this.usernameChangeHandler.bind(this)} username={this.state.usernames[0].user}/>
-
-  //           <UserOutput username={this.state.usernames[0].user} />
-  //           <UserOutput username={this.state.usernames[1].user} />
-  //       </div>
-  //     );
-  // };
-  /** MODULE 3 - END ASSIGNMENT 1  */
-  
   state = {
     persons: [
       { name: 'Max', age: 28},
@@ -94,7 +62,6 @@ class App extends Component {
       </div>
     );
   }
-
 
 }
 
